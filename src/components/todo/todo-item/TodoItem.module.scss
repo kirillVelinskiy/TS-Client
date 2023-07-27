@@ -1,0 +1,43 @@
+.item {
+	width: 80%;
+	border: 1px dashed #dce8f3;
+	padding: 14px 20px;
+	border-radius: 5px;
+	background-color: #161b22;
+	align-items: center;
+	margin-bottom: 20px;
+
+	.link {
+		display: flex;
+		justify-content: end;
+		gap: 7px;
+		margin-bottom: 20px;
+
+		span {
+			font-size: 22px;
+			border: 1px solid transparent;
+			border-radius: 50%;
+			padding: 4px;
+			color: rgba(220, 232, 243, 0.5);
+			cursor: pointer;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: all 0.2s ease-out;
+
+			&:hover {
+				border: 1px solid #aeaeae;
+				color: #dce8f3;
+				background-color: rgba(220, 232, 243, 0.2);
+			}
+		}
+	}
+
+	.title {
+		word-break: break-all;
+	}
+}
+
+input:checked + .check {
+	text-decoration: line-through;
+}

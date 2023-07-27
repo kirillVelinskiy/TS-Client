@@ -1,0 +1,34 @@
+label {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	gap: 20px;
+	margin: 20px auto;
+	border: 1px dashed #dce8f3;
+	padding: 14px 20px;
+	border-radius: 5px;
+	background-color: #161b22;
+	align-items: center;
+	margin-bottom: 20px;
+
+	.input {
+		outline: none;
+		background-color: #dce8f3;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 10px;
+	}
+
+	.add {
+		border: 1px solid #23282e;
+		border-radius: 10px;
+		background-color: #010409;
+		padding: 10px 20px;
+		color: #dce8f3;
+		transition: background-color 0.2s ease-out;
+
+		&:hover {
+			background-color: #23282e;
+		}
+	}
+}

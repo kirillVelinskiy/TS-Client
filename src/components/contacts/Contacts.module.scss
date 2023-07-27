@@ -1,0 +1,32 @@
+.wrapper {
+	width: 100%;
+	padding: 14px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+
+	h2 {
+		font-size: 22px;
+		border-bottom: 2px dashed #161b22;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+
+		a,
+		li {
+			font-size: 18px;
+			font-weight: 300;
+			color: rgba(220, 232, 243, 0.7);
+			transition: color 0.2s ease-out;
+
+			&:hover {
+				color: rgba(220, 232, 243, 1);
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.message {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	margin-top: 50px;
+	padding: 14px 20px;
+
+	.title {
+		font-weight: 600;
+	}
+
+	.subtitle {
+		font-weight: 300;
+		color: rgba(193, 220, 239, 0.6);
+	}
+
+	.btn {
+		border: none;
+		background-color: transparent;
+		color: rgba(193, 220, 239, 0.8);
+		cursor: pointer;
+		transition: color 0.2s ease-out;
+
+		&:hover {
+			color: #dce8f3;
+		}
+	}
+}
