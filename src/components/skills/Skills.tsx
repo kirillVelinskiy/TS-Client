@@ -1,7 +1,7 @@
 import Layout from '../layout/Layout'
 import styles from './Skills.module.scss'
 
-const Skills = () => {
+const Skills: React.FC = () => {
 	return (
 		<Layout>
 			<div className={styles.wrapper}>

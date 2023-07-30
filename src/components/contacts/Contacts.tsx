@@ -1,7 +1,7 @@
 import Layout from '../layout/Layout'
 import styles from './Contacts.module.scss'
 
-const Contacts = () => {
+const Contacts: React.FC = () => {
 	return (
 		<Layout>
 			<div className={styles.wrapper}>
