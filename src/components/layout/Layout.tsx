@@ -4,7 +4,7 @@ import { MdMenu, MdClose } from 'react-icons/md'
 import { useState } from 'react'
 
 interface IProps {
-	children: React.ReactNode
+	children?: React.ReactNode
 }
 
 const Layout = ({ children }: IProps) => {
